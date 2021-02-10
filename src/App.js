@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Navbar/Navbar.jsx"
+import CuriculumVitae from "./Body/CuriculumVitae.jsx"
+import Footer from "./Navbar/Footer.jsx"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body style={{ backgroundColor: "grey" }}>
+        <div class="container white" >
+          <Navbar />
+          <CuriculumVitae />
+          <Footer />
+        </div>
+      </body>
     </div>
   );
 }
