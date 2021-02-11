@@ -7,7 +7,11 @@ class Navbar extends Component {
     return (
       <nav>
         <div class="nav-wrapper red darken-3 z-depth-5">
-          <a href="#" class="brand-logo center">
+          <a
+            href="#"
+            class="brand-logo center"
+            style={{ fontFamily: "Brush Script MT" }}
+          >
             {" "}
             Mon CV
           </a>

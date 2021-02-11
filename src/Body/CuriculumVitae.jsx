@@ -26,6 +26,12 @@ class CuriculumVitae extends Component {
               <span class="flow-text"></span>
               <div style={{ marginTop: 125, marginLeft: 50 }}>
                 <p class="flow-text center">Bienvenue sur mon CV en ligne</p>
+                <p
+                  class="flow-text center"
+                  style={{ fontSize: 10, marginTop: -30, color: "grey" }}
+                >
+                  (Actuellement en construction)
+                </p>
                 <p class="flow-text center">
                   Actuellement à la recherche d'une alternance pour intégrer
                   l'école WebForce3, vous trouverez ci-dessous mon parcours!
